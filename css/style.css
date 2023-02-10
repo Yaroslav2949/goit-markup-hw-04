@@ -46,9 +46,7 @@ ul {
   padding-top: 94px;
 }
 .page-header {
-  border-color: #eeeeee;
-  border-style: solid;
-  border-width: 1px;
+  border-bottom: 1px solid #eeeeee;
 }
 .main-nav {
   display: flex;
@@ -156,7 +154,7 @@ ul {
   margin-left: 50px;
 }
 
-.icon {
+.contact-list-link > .icon {
   margin-right: 10px;
 }
 
@@ -169,6 +167,7 @@ ul {
 
 .hero {
   max-width: 1600px;
+  margin: 0px auto;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -288,7 +287,9 @@ ul {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
-  padding: 25px 100px 25px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
@@ -369,8 +370,8 @@ ul {
 .team-members-discribe {
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 2px solid;
-  border-color: #eeeeee;
+
+  background-color: #ffffff;
 }
 
 .team-members-text {
@@ -395,6 +396,7 @@ ul {
 }
 .links-item {
   display: flex;
+  justify-content: center;
   align-items: center;
   border-radius: 50%;
   width: 44px;
@@ -407,7 +409,7 @@ ul {
 }
 
 .links-item {
-  background-color: var(--secondary-accent-color);
+  background-color: #ffff;
 }
 .links-item:hover .links-icon {
   fill: #fff;
@@ -446,7 +448,7 @@ ul {
 .clients-list-link {
   width: 170px;
   height: 92px;
-
+  align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -455,7 +457,6 @@ ul {
 .clients-icon {
   display: flex;
   fill: #afb1b8;
-  margin: 16px 32px;
 }
 
 .clients-list-link:hover {
